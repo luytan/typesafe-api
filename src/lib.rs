@@ -4,4 +4,4 @@ mod request;
 #[allow(dead_code)]
 mod response;
 
-pub use request::TypeSafeRequestBuilder;
+pub use request::{TypeSafeRequestBuilder, TypeSafeClient};

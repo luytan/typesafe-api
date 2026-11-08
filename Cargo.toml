@@ -1,0 +1,12 @@
+[package]
+name = "typesafe-api"
+version = "0.1.0"
+edition = "2024"
+authors = ["luytan <luytan@khora.me>"]
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = { version = "1.0.151", features = ["preserve_order"] }
+thiserror = "2.0.21"
+reqwest = {version = "0.13.5", features = ["json"] }
